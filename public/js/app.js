@@ -24,7 +24,7 @@ searchBtn.addEventListener('click', (e)=>{
                 text1.style.color="black"
                 text1.textContent= data.placeName
                 text3.textContent = 'Temperature :'+Math.floor((data.temperature-32)*5/9)+'°C'
-                text2.textContent='It is currently "'+ data.summary+'"'
+                text2.textContent='It is "'+ data.summary+'"'
             }
         })
     })
