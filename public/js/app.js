@@ -9,7 +9,7 @@ const text4 = document.querySelector('#textmsg4')
 searchBtn.addEventListener('click', (e)=>{
     e.preventDefault();
     const searchVal = search.value
-    const api = `http://localhost:3000/weather?address=${searchVal}`;
+    const api = `/weather?address=${searchVal}`;
     text1.textContent = 'Loading...'
     text2.textContent = ' '
     text3.textContent = ' '
