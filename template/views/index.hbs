@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="./css/style.css">
+     
+</head>
+<body>
+    {{>header}}
+        
+        <form>
+            <input type="text" placeholder="location">
+            <input type="submit" id="searchBTN">
+        </form>
+        
+        <h2 id="textmsg1">Please Make a search</h2>
+        <br>
+        <p><b><span id="textmsg2"></span></b></p>
+        <p><b><span id="textmsg3"></span></b></p>
+
+    {{>footer}}
+</body>
+</html>
